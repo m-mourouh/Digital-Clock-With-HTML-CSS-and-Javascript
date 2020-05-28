@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.clock {
+    width: 800px;
+    height: 100px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-family: Courier, monospace;
+   text-align: center;
+   text-shadow: 0 0 6px #000;
+   color: #fff;
+   letter-spacing: 20px;
+   user-select: none;
+   font-size: 6rem;
+}
